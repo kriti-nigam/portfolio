@@ -39,6 +39,20 @@ section {
     color: #fff; /* Light text color for home section */
     padding: 4rem 0;
 }
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 2rem;
+    background-color: #2e2e2e; /* Slightly lighter background for sections */
+    border-radius: 10px;
+}
 
 footer {
     background-color: #1e1e1e; /* Dark background for footer */
