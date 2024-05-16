@@ -11,7 +11,7 @@ header {
     background-color: #121212; /* Match body background for seamless look */
     padding: 1rem 2rem;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 nav ul {
@@ -21,7 +21,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex-grow: 1;
+    /*flex-grow: 1; */
 }
 nav ul li {
     margin-right: 2rem; /* Increase space between the nav items */
@@ -33,8 +33,8 @@ nav ul li.logo {
     font-weight: 700;
     color: #ffffff;
 }
-nav ul li.logo+li {
-    margin-right: 3rem; /* Increase space between the logo and nav bar */
+/*nav ul li.logo+li {
+    margin-right: 3rem; /* Increase space between the logo and nav bar */ */
 
 nav ul li a {
     color: #808080; /* Light gray color for inactive links */
