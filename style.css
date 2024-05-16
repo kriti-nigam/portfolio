@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background color */
-    color: #e0e0e0; /* Light text color */
+    background-color: #FFD700;/* Dark background color #121212; */
+    color:#333333; /* Light text color #e0e0e0; */
 }
 
 header {
-    background-color: #1e1e1e; /* Darker header background */
-    color: #fff; /* Light text color for the header */
-    padding: 1rem 0;
+    background-color: #FF8C00 ; /* Darker header background #1e1e1e*/
+    color: #ffffff; /* Light text color for the header */
+    padding: 2rem 0;
 }
 
 nav ul {
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* Light text color for navigation links */
+    color: #ffffff; /* Light text color for navigation links */
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -35,8 +35,8 @@ section {
 }
 
 #home {
-    background-color: #1e1e1e; /* Dark background for home section */
-    color: #fff; /* Light text color for home section */
+    background-color: #FFD700; /* Dark background for home section #1e1e1e; */
+    color: #333333; /* Light text color for home section #fff; */
     padding: 4rem 0;
 }
 .home-section {
@@ -50,13 +50,13 @@ section {
 .left-section, .right-section {
     flex: 1;
     padding: 2rem;
-    background-color: #2e2e2e; /* Slightly lighter background for sections */
+    background-color: #FFF8DC; /* Slightly lighter background for sections #2e2e2e */
     border-radius: 10px;
 }
 
 footer {
-    background-color: #1e1e1e; /* Dark background for footer */
-    color: #fff; /* Light text color for footer */
+    background-color:#FF8C00;  /* Dark background for footer  #1e1e1e;*/
+    color: #ffffff; /* Light text color for footer */
     text-align: center;
     padding: 1rem 0;
     position: relative;
