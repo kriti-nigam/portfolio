@@ -34,8 +34,8 @@ nav ul li.logo {
     font-weight: 700;
     color: #ffffff;
 }
-/*nav ul li.logo+li {
-    margin-right: 3rem; /* Increase space between the logo and nav bar */ */
+/*nav ul li.logo+li { */
+    /*margin-right: 3rem; /* Increase space between the logo and nav bar */
 
 nav ul li a {
     color: #d3d3d3; /* Light gray color for inactive links */
