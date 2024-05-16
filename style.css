@@ -8,25 +8,43 @@ body {
 }
 
 header {
-    background-color: #1e1e1e; /* Darker header background */
-    color: #ffffff; /* Light text color for the header */
-    padding: 2rem 0;
+    background-color: #121212; /* Match body background for seamless look */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-
 nav ul li {
     margin: 0 1rem;
 }
+nav ul li.logo {
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
 
 nav ul li a {
-    color: #ffffff; /* Light text color for navigation links */
+    color: #808080; /* Light gray color for inactive links */
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a.active {
+    color: #00c6d0; /* Teal color for active/hovered links */
+}
+body {
+    padding-top: 4rem;
 }
 
 section {
