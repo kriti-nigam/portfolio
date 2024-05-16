@@ -24,15 +24,17 @@ nav ul {
     flex-grow: 1;
 }
 nav ul li {
-    margin-right: 3rem; /* Increase space between the logo and the first nav item */
+    margin-right: 2rem; /* Increase space between the nav items */
 }
 
 nav ul li.logo {
-    margin-right: auto;
+    /* margin-right: auto; */
     font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff;
 }
+nav ul li.logo+li {
+    margin-right: 3rem; /* Increase space between the logo and nav bar */
 
 nav ul li a {
     color: #808080; /* Light gray color for inactive links */
