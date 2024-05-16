@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121212;/* Dark background color */
@@ -22,7 +22,7 @@ nav ul {
     align-items: center;
 }
 nav ul li {
-    margin: 0 1rem;
+    margin-right: 1.5rem; /*Increase space bw items */
 }
 nav ul li.logo {
     margin-right: auto;
