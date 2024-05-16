@@ -23,8 +23,9 @@ nav ul {
     justify-content: flex-end;
     flex-grow: 1;
 }
-nav ul li {
-    margin-left: 1.5rem; /*Increase space bw items */
+nav ul li:first-child + li {
+    margin-right: 3rem; /* Increase space between the logo and the first nav item */
+}
 }
 nav ul li.logo {
     margin-right: auto;
