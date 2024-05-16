@@ -11,7 +11,7 @@ header {
     background-color: #121212; /* Match body background for seamless look */
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between;
+   /* justify-content: space-between; */
     align-items: center;
 }
 nav ul {
