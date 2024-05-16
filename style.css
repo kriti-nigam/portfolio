@@ -11,7 +11,7 @@ header {
     background-color: #121212; /* Match body background for seamless look */
     padding: 1rem 2rem;
     display: flex;
-   /* justify-content: space-between; */
+   justify-content: space-between;
     align-items: center;
 }
 nav ul {
@@ -20,9 +20,11 @@ nav ul {
     padding: 0;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 nav ul li {
-    margin-right: 1.5rem; /*Increase space bw items */
+    margin-left: 1.5rem; /*Increase space bw items */
 }
 nav ul li.logo {
     margin-right: auto;
