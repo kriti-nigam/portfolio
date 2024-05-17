@@ -50,11 +50,11 @@ nav ul li a.active {
     color: #00c6d0; /* Teal color for active/hovered links */
 }
 body {
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 /* Home section styles */
 #home {
-    background-color: #1e1e1e; /* Dark background for home section  */
+    background-color: #121212; /* Dark background for home section  */
     color: #cccccc; /* Light text color for home section */
     padding: 4rem 2rem;
     text-align: center;
@@ -79,7 +79,7 @@ section {
 }
 
 #home {
-    background-color: #1e1e1e; /* Dark background for home section  */
+    background-color: #121212; /* Dark background for home section  */
     color:  #cccccc; /* Light text color for home section  */
     padding: 4rem 0;
 }
@@ -104,7 +104,7 @@ profile-pic {
     margin-top: 0.5rem;
 
 footer {
-    background-color: #1e1e1e; /* Dark background for footer   */
+    background-color: #121212; /* Dark background for footer   */
     color: #cccccc; /* Light text color for footer */
     text-align: center;
     padding: 1rem 0;
