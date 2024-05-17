@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #121212;/* Dark background color */
-    color: #e0e0e0;  /* Light text color  */
+    color: #cccccc;  /* Light text color  */
 }
 /* Header & navigation bar styles */
 
@@ -32,7 +32,7 @@ nav ul li.logo {
     /* margin-right: auto; */
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #cccccc;
 }
 /*nav ul li.logo+li { */
     /*margin-right: 3rem; /* Increase space between the logo and nav bar */
@@ -55,7 +55,7 @@ body {
 /* Home section styles */
 #home {
     background-color: #1e1e1e; /* Dark background for home section */
-    color: #ffffff; /* Light text color for home section */
+    color: #cccccc; /* Light text color for home section */
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -77,7 +77,7 @@ section {
 
 #home {
     background-color: #1e1e1e; /* Dark background for home section  */
-    color:  #fff; /* Light text color for home section  */
+    color:  #cccccc; /* Light text color for home section  */
     padding: 4rem 0;
 }
 .home-section {
@@ -102,7 +102,7 @@ profile-pic {
 
 footer {
     background-color: #1e1e1e; /* Dark background for footer  */
-    color: #ffffff; /* Light text color for footer */
+    color: #cccccc; /* Light text color for footer */
     text-align: center;
     padding: 1rem 0;
     position: relative;
