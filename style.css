@@ -3,7 +3,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;/* Dark background color */
+    background-image: url('background.jpeg'); /*path to the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: #121212;*//* Dark background color */
     color: #cccccc;  /* Light text color  */
 }
 /* Header & navigation bar styles */
