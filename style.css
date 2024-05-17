@@ -14,6 +14,7 @@ header {
     display: flex;
     /*justify-content: space-between; */
     align-items: center;
+    
 }
 nav ul {
     list-style: none;
@@ -35,7 +36,7 @@ nav ul li.logo {
     color: #cccccc;
 }
 /*nav ul li.logo+li { */
-    /*margin-right: 3rem; /* Increase space between the logo and nav bar */
+    /* margin-right: 3rem; /* Increase space between the logo and nav bar */
 
 nav ul li a {
     color: #d3d3d3; /* Light gray color for inactive links */
@@ -49,9 +50,7 @@ nav ul li a:focus,
 nav ul li a.active {
     color: #00c6d0; /* Teal color for active/hovered links */
 }
-body {
-    padding-top: 2rem;
-}
+
 /* Home section styles */
 #home {
     background-color: #121212; /* Dark background for home section  */
