@@ -3,16 +3,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpeg'); /*path to the image */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*background-color: #121212;*//* Dark background color */
+    background-color: #121212;/* Dark background color */
     color: #cccccc;  /* Light text color  */
 }
 /* Header & navigation bar styles */
 
 header {
-    background-color: rgba(18, 18, 18, 0.9) /* Semi transparent */
+    background-color: #121212; /* match the body background for a seamless look */
     padding: 1rem 2rem;
     display: flex;
     /*justify-content: space-between; */
@@ -57,7 +54,7 @@ body {
 }
 /* Home section styles */
 #home {
-    background-color: rgba (30,30, 30, 0.9); /* Dark background for home section #1e1e1e */
+    background-color: #1e1e1e; /* Dark background for home section  */
     color: #cccccc; /* Light text color for home section */
     padding: 4rem 2rem;
     text-align: center;
