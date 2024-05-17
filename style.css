@@ -52,6 +52,23 @@ nav ul li a.active {
 body {
     padding-top: 4rem;
 }
+/* Home section styles */
+#home {
+    background-color: #1e1e1e; /* Dark background for home section */
+    color: #ffffff; /* Light text color for home section */
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#home h1 {
+    text-align: center; /* Center-align headings */
+    margin-bottom: 2rem;
+}
+
+#home p {
+    text-align: left; /* Left-align paragraphs */
+    margin-bottom: 1.5rem;
+}
 /* Section style */
 section {
     padding: 2rem;
