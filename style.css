@@ -12,7 +12,7 @@ body {
 /* Header & navigation bar styles */
 
 header {
-    background-color: #121212; /* Match body background for seamless look */
+    background-color: rgba(18, 18, 18, 0.9) /* Semi transparent */
     padding: 1rem 2rem;
     display: flex;
     /*justify-content: space-between; */
@@ -57,15 +57,18 @@ body {
 }
 /* Home section styles */
 #home {
-    background-color: #1e1e1e; /* Dark background for home section */
+    background-color: rgba (30,30, 30, 0.9); /* Dark background for home section #1e1e1e */
     color: #cccccc; /* Light text color for home section */
     padding: 4rem 2rem;
     text-align: center;
+    margin: 2rem;
+    border-radius: 10px;
 }
 
 #home h1 {
     text-align: center; /* Center-align headings */
     margin-bottom: 2rem;
+    color: #cccccc /* to keep the headings grey */
 }
 
 #home p {
@@ -104,7 +107,7 @@ profile-pic {
     margin-top: 0.5rem;
 
 footer {
-    background-color: #1e1e1e; /* Dark background for footer  */
+    background-color: rgba(18,18,18,0.9); /* Dark background for footer #1e1e1e  */
     color: #cccccc; /* Light text color for footer */
     text-align: center;
     padding: 1rem 0;
